@@ -1,6 +1,6 @@
 {
   "name": "@sb1/ffe-buttons-react",
-  "version": "11.1.7",
+  "version": "11.2.3",
   "description": "React implementation of ffe-buttons",
   "keywords": [
     "ffe"
@@ -17,7 +17,7 @@
     "url": "ssh://git@github.com:SpareBank1/designsystem.git"
   },
   "scripts": {
-    "build": "babel -d lib/. --ignore=*.spec.js src/.",
+    "build": "babel -d lib/. --root-mode=upward --ignore=*.spec.js src/.",
     "lint": "eslint src/.",
     "test": "jest",
     "test:watch": "jest --watch"
@@ -26,21 +26,21 @@
     "setupTestFrameworkScriptFile": "../../test-setup.js"
   },
   "dependencies": {
-    "@sb1/ffe-icons-react": "^6.0.6",
+    "@sb1/ffe-icons-react": "^6.0.9",
     "classnames": "^2.2.5",
     "prop-types": "^15.6.0"
   },
   "devDependencies": {
-    "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
     "eslint": "^5.3.0",
     "jest": "^23.4.2",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
   },
   "peerDependencies": {
-    "@sb1/ffe-buttons": "^7.0.2",
-    "react": "^16.2.0"
+    "@sb1/ffe-buttons": "^8.1.0",
+    "react": "^16.6.3"
   },
   "publishConfig": {
     "access": "public"

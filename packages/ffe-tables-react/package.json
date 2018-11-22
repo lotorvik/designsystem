@@ -1,6 +1,6 @@
 {
   "name": "@sb1/ffe-tables-react",
-  "version": "5.1.6",
+  "version": "5.1.9",
   "description": "React implementation of ffe-tables",
   "license": "MIT",
   "files": [
@@ -13,7 +13,7 @@
     "url": "ssh://git@github.com:SpareBank1/designsystem.git"
   },
   "scripts": {
-    "build": "babel -d lib/. --ignore=*.spec.js src/.",
+    "build": "babel -d lib/. --root-mode=upward --ignore=*.spec.js src/.",
     "lint": "eslint src/.",
     "test": "jest",
     "test:watch": "jest --watch"
@@ -22,23 +22,23 @@
     "setupTestFrameworkScriptFile": "../../test-setup.js"
   },
   "dependencies": {
-    "@sb1/ffe-icons-react": "^6.0.6",
+    "@sb1/ffe-icons-react": "^6.0.9",
     "classnames": "^2.2.5",
     "deep-equal": "^1.0.1",
     "prop-types": "^15.6.0",
     "shallow-equals": "^1.0.0"
   },
   "devDependencies": {
-    "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
     "jest": "^23.4.2",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
     "sinon": "^6.1.4"
   },
   "peerDependencies": {
     "@sb1/ffe-tables": "^9.0.0",
-    "react": "^16.2.0"
+    "react": "^16.6.3"
   },
   "publishConfig": {
     "access": "public"

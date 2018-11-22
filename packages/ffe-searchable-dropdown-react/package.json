@@ -1,6 +1,6 @@
 {
   "name": "@sb1/ffe-searchable-dropdown-react",
-  "version": "6.1.0",
+  "version": "6.2.4",
   "description": "Dropdown with search option",
   "license": "MIT",
   "author": "SpareBank 1",
@@ -15,7 +15,7 @@
     "url": "ssh://git@github.com:SpareBank1/designsystem.git"
   },
   "scripts": {
-    "build": "babel -d lib/. --ignore=*.spec.js src/.",
+    "build": "babel -d lib/. --root-mode=upward --ignore=*.spec.js src/.",
     "lint": "eslint src/.",
     "test": "jest",
     "test:watch": "jest --watch"
@@ -24,7 +24,7 @@
     "setupTestFrameworkScriptFile": "../../test-setup.js"
   },
   "dependencies": {
-    "@sb1/ffe-icons-react": "^6.0.6",
+    "@sb1/ffe-icons-react": "^6.0.9",
     "classnames": "^2.2.5",
     "lodash.isequal": "^4.5.0",
     "prop-types": "^15.6.0",
@@ -32,18 +32,18 @@
     "react-proptype-conditional-require": "^1.0.4"
   },
   "devDependencies": {
-    "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
     "eslint": "^5.3.0",
     "jest": "^23.4.2",
     "less": "^3.8.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
   },
   "peerDependencies": {
-    "@sb1/ffe-core": "^12.0.0 || ^13.0.0",
-    "@sb1/ffe-form": "^9.0.0",
-    "react": "^16.2.0"
+    "@sb1/ffe-core": "^14.0.2",
+    "@sb1/ffe-form": "^10.1.1",
+    "react": "^16.6.3"
   },
   "publishConfig": {
     "access": "public"

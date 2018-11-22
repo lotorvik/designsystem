@@ -1,6 +1,6 @@
 {
   "name": "@sb1/ffe-datepicker-react",
-  "version": "3.1.38",
+  "version": "3.1.44",
   "license": "MIT",
   "files": [
     "lib",
@@ -12,7 +12,7 @@
     "url": "ssh://git@github.com:SpareBank1/designsystem.git"
   },
   "scripts": {
-    "build": "babel -d lib/. --ignore=*.spec.js src/.",
+    "build": "babel -d lib/. --root-mode=upward --ignore=*.spec.js src/.",
     "lint": "eslint src/.",
     "test": "jest",
     "test:watch": "jest --watch"
@@ -21,24 +21,24 @@
     "setupTestFrameworkScriptFile": "../../test-setup.js"
   },
   "dependencies": {
-    "@sb1/ffe-datepicker": "^5.0.37",
-    "@sb1/ffe-icons-react": "^6.0.6",
+    "@sb1/ffe-datepicker": "^5.0.40",
+    "@sb1/ffe-icons-react": "^6.0.9",
     "classnames": "^2.2.5",
     "prop-types": "^15.6.0",
     "uuid": "^3.1.0"
   },
   "devDependencies": {
-    "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
     "eslint": "^5.3.0",
     "jest": "^23.4.2",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
   },
   "peerDependencies": {
     "@sb1/ffe-datepicker": "^5.0.0",
-    "@sb1/ffe-form": "^9.0.0",
-    "react": "^16.2.0"
+    "@sb1/ffe-form": "^10.1.1",
+    "react": "^16.6.3"
   },
   "publishConfig": {
     "access": "public"

@@ -3,6 +3,53 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.1.0](https://github.com/SpareBank1/designsystem/compare/@sb1/ffe-lists@6.0.0...@sb1/ffe-lists@6.1.0) (2018-11-19)
+
+### Features
+
+-   **ffe-lists:** Add support for two-column check lists ([7cfa60c](https://github.com/SpareBank1/designsystem/commit/7cfa60c))
+
+# [6.0.0](https://github.com/SpareBank1/designsystem/compare/@sb1/ffe-lists@5.0.18...@sb1/ffe-lists@6.0.0) (2018-11-08)
+
+### Code Refactoring
+
+-   **ffe-lists:** Introduce list item classes ([4961fda](https://github.com/SpareBank1/designsystem/commit/4961fda))
+
+### BREAKING CHANGES
+
+-   **ffe-lists:** This commit requires all list items to have a
+    corresponding list item class. The element classes introduced are as
+    follows:
+
+*   `ffe-bullet-list__item`
+*   `ffe-numbered-list__item`
+*   `ffe-stylized-numbered-list__item`
+*   `ffe-check-list__item`
+
+To migrate, add the correct element class to each `li` in your
+application. It should be a pretty simple search-replace for most cases,
+but YMMV.
+
+This change furthers our move away from element styling, to a design
+system completely based on BEM.
+
+Also, this commit adds a `cross` modifyer class for the `ffe-check-list__item`.
+
+Finally, this commit also introduces element classes for the dd and dt elements
+for `ffe-description-list` and `ffe-description-list-multicol`.
+
+There are two new classes:
+
+-   `ffe-description-list__term` for `<dt />` tags
+-   `ffe-description-list__description` for `<dd />` tags
+
+To migrate, please apply the correct class to the correct element
+for all `ffe-description-list` instances.
+
+## [5.0.18](https://github.com/SpareBank1/designsystem/compare/@sb1/ffe-lists@5.0.17...@sb1/ffe-lists@5.0.18) (2018-10-25)
+
+**Note:** Version bump only for package @sb1/ffe-lists
+
 <a name="5.0.17"></a>
 
 ## [5.0.17](https://github.com/SpareBank1/designsystem/compare/@sb1/ffe-lists@5.0.16...@sb1/ffe-lists@5.0.17) (2018-09-19)

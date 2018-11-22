@@ -30,7 +30,7 @@ const ignore = [
 module.exports = {
     title: 'SpareBank 1 Designsystem',
     require: [
-        'babel-polyfill',
+        '@babel/polyfill',
         path.join(__dirname, 'packages/ffe-all.less'),
         path.join(__dirname, 'src/styles/styles.less'),
     ],
@@ -277,8 +277,21 @@ module.exports = {
                 },
                 {
                     name: 'Kortkomponenter',
-                    components:
-                        'packages/ffe-cards-react/src/[A-Z]+([A-Za-z]).js',
+                    components: [
+                        'packages/ffe-cards-react/src/CardBase.js',
+                        'packages/ffe-cards-react/src/TextCard/TextCard.js',
+                        'packages/ffe-cards-react/src/IconCard/IconCard.js',
+                        'packages/ffe-cards-react/src/ImageCard/ImageCard.js',
+                    ],
+                    sections: [
+                        {
+                            name: 'Utdaterte kort',
+                            components: [
+                                'packages/ffe-cards-react/src/LinkCard.js',
+                                'packages/ffe-cards-react/src/ProductCard.js',
+                            ],
+                        },
+                    ],
                 },
             ],
         },

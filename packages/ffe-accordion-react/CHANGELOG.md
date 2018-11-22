@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.2.5](https://github.com/SpareBank1/designsystem/compare/@sb1/ffe-accordion-react@6.2.4...@sb1/ffe-accordion-react@6.2.5) (2018-11-16)
+
+**Note:** Version bump only for package @sb1/ffe-accordion-react
+
+## [6.2.4](https://github.com/SpareBank1/designsystem/compare/@sb1/ffe-accordion-react@6.2.3...@sb1/ffe-accordion-react@6.2.4) (2018-11-13)
+
+**Note:** Version bump only for package @sb1/ffe-accordion-react
+
+## [6.2.3](https://github.com/SpareBank1/designsystem/compare/@sb1/ffe-accordion-react@6.2.2...@sb1/ffe-accordion-react@6.2.3) (2018-11-08)
+
+**Note:** Version bump only for package @sb1/ffe-accordion-react
+
+## [6.2.2](https://github.com/SpareBank1/designsystem/compare/@sb1/ffe-accordion-react@6.2.1...@sb1/ffe-accordion-react@6.2.2) (2018-10-17)
+
+**Note:** Version bump only for package @sb1/ffe-accordion-react
+
 ## [6.2.1](https://github.com/SpareBank1/designsystem/compare/@sb1/ffe-accordion-react@6.2.0...@sb1/ffe-accordion-react@6.2.1) (2018-10-15)
 
 **Note:** Version bump only for package @sb1/ffe-accordion-react

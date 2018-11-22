@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.9](https://github.com/SpareBank1/designsystem/compare/@sb1/ffe-tables-react@5.1.8...@sb1/ffe-tables-react@5.1.9) (2018-11-16)
+
+**Note:** Version bump only for package @sb1/ffe-tables-react
+
+## [5.1.8](https://github.com/SpareBank1/designsystem/compare/@sb1/ffe-tables-react@5.1.7...@sb1/ffe-tables-react@5.1.8) (2018-11-13)
+
+**Note:** Version bump only for package @sb1/ffe-tables-react
+
+## [5.1.7](https://github.com/SpareBank1/designsystem/compare/@sb1/ffe-tables-react@5.1.6...@sb1/ffe-tables-react@5.1.7) (2018-10-17)
+
+**Note:** Version bump only for package @sb1/ffe-tables-react
+
 <a name="5.1.6"></a>
 
 ## [5.1.6](https://github.com/SpareBank1/designsystem/compare/@sb1/ffe-tables-react@5.1.5...@sb1/ffe-tables-react@5.1.6) (2018-09-24)

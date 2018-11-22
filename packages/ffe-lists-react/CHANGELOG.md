@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/SpareBank1/designsystem/compare/@sb1/ffe-lists-react@3.1.1...@sb1/ffe-lists-react@3.2.0) (2018-11-19)
+
+### Features
+
+-   **ffe-lists-react:** Add columns-support to CheckList ([f4cf473](https://github.com/SpareBank1/designsystem/commit/f4cf473))
+
+## [3.1.1](https://github.com/SpareBank1/designsystem/compare/@sb1/ffe-lists-react@3.1.0...@sb1/ffe-lists-react@3.1.1) (2018-11-09)
+
+**Note:** Version bump only for package @sb1/ffe-lists-react
+
+# [3.1.0](https://github.com/SpareBank1/designsystem/compare/@sb1/ffe-lists-react@3.0.5...@sb1/ffe-lists-react@3.1.0) (2018-11-08)
+
+### Features
+
+-   **ffe-lists-react:** Add list item components ([9470296](https://github.com/SpareBank1/designsystem/commit/9470296))
+
 <a name="3.0.5"></a>
 
 ## [3.0.5](https://github.com/SpareBank1/designsystem/compare/@sb1/ffe-lists-react@3.0.4...@sb1/ffe-lists-react@3.0.5) (2018-08-09)
